@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render ServiceOffering correctly 1`] = `
+<div
+  className=""
+>
+  <div
+    className="flex justify-center md:justify-start pb-4"
+  >
+    <div
+      className="bg-gray-300 dark:bg-gray-700 w-60 h-60 rounded-3xl"
+    />
+  </div>
+  <div
+    className="font-black text-2xl text-pink-600 pb-2 text-center md:text-left"
+  >
+    Title
+  </div>
+  <p
+    className="text-center md:text-left"
+  >
+    Text goes here
+  </p>
+</div>
+`;

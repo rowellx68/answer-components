@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders PrimaryPageText correctly 1`] = `
+<h1
+  className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-blue-700 to-blue-700 bg-clip-text text-transparent "
+>
+  We are Answer Digital.
+</h1>
+`;
+
+exports[`Renders PrimaryPageText correctly when passing className 1`] = `
+<h1
+  className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-blue-700 to-blue-700 bg-clip-text text-transparent pb-6"
+>
+  We are Answer Digital.
+</h1>
+`;

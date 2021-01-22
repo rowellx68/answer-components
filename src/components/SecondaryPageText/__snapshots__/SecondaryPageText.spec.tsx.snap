@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SecondaryPageText correctly 1`] = `
+<h2
+  className="text-2xl md:text-3xl font-extralight "
+>
+  This is a really long text that could be used as the sub-heading of the page
+</h2>
+`;
+
+exports[`renders SecondaryPageText correctly when passing className 1`] = `
+<h2
+  className="text-2xl md:text-3xl font-extralight pb-6"
+>
+  This is a really long text that could be used as the sub-heading of the page
+</h2>
+`;

@@ -1,0 +1,34 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+import PrimaryPageText from './PrimaryPageText'
+import SecondaryPageText from './SecondaryPageText'
+import Wrapper from './Wrapper'
+
+<Meta title="Components/Introduction" />
+
+# Answer Digital Components
+
+This project is a collection of components that demonstrates how one would use [Tailwind CSS](https://tailwindcss.com).
+
+## Page Layout
+
+Page content should be wrapped in a `Wrapper` component wherever possible. This allows the content to be centered and will provide gutters on the left and right sides.
+
+<Canvas>
+  <div>
+    <section className="bg-gray-100 py-10">
+      <Wrapper>
+        <PrimaryPageText className="pb-2" text="This is inside a Wrapper." />
+      </Wrapper>
+    </section>
+    <p className="py-5">This one is not.</p>
+  </div>
+</Canvas>
+
+## Page Header
+
+Typical pages will have the one `PrimaryPageText` and could have one or more `SecondaryPageText`.
+
+<Canvas>
+  <PrimaryPageText className="pb-6" text="Rendered as a h1 tag." />
+  <SecondaryPageText text="This will be rendered as a h2 tag. You can have a few of these." />
+</Canvas>
