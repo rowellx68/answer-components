@@ -5,9 +5,14 @@ export interface SecondaryPageTextProps {
   text: string
 }
 
-const SecondaryPageText: React.FC<SecondaryPageTextProps> = ({ text, className = '' }) => {
+const SecondaryPageText: React.FC<SecondaryPageTextProps> = ({
+  text,
+  className = '',
+}) => {
   return (
-    <h2 className={`text-2xl md:text-3xl font-extralight ${className}`}>{text}</h2>
+    <h2 className={`text-2xl md:text-3xl font-extralight ${className}`}>
+      {text}
+    </h2>
   )
 }
 

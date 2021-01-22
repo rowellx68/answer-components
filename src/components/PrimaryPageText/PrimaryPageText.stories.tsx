@@ -10,7 +10,7 @@ export default {
     className: { control: 'text' },
     text: { control: 'text' },
   },
-} as Meta;
+} as Meta
 
 const Template: Story<PrimaryPageTextProps> = (args) => (
   <PrimaryPageText {...args} />
@@ -19,5 +19,5 @@ const Template: Story<PrimaryPageTextProps> = (args) => (
 export const BasicUsage = Template.bind({})
 BasicUsage.args = {
   className: 'pb-6',
-  text: 'We are Answer Digital.'
+  text: 'We are Answer Digital.',
 }

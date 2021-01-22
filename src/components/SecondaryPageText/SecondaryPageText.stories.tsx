@@ -10,7 +10,7 @@ export default {
     className: { control: 'text' },
     text: { control: 'text' },
   },
-} as Meta;
+} as Meta
 
 const Template: Story<SecondaryPageTextProps> = (args) => (
   <SecondaryPageText {...args} />
@@ -19,11 +19,13 @@ const Template: Story<SecondaryPageTextProps> = (args) => (
 export const BasicUsage = Template.bind({})
 BasicUsage.args = {
   className: 'pb-6',
-  text: 'This is a really long text that could be used as the sub-heading of the page.'
+  text:
+    'This is a really long text that could be used as the sub-heading of the page.',
 }
 
 export const CustomFontSize = Template.bind({})
 CustomFontSize.args = {
   className: 'pb-6 text-4xl md:text-6xl',
-  text: 'This is a really long text that could be used as the sub-heading of the page.'
+  text:
+    'This is a really long text that could be used as the sub-heading of the page.',
 }

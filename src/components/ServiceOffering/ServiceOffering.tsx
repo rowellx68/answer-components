@@ -6,7 +6,11 @@ export interface ServiceOfferingProps {
   text: string
 }
 
-const ServiceOffering: React.FC<ServiceOfferingProps> = ({ title, text, className = '' }) => {
+const ServiceOffering: React.FC<ServiceOfferingProps> = ({
+  title,
+  text,
+  className = '',
+}) => {
   return (
     <div className={className}>
       <div className="flex justify-center md:justify-start pb-4">

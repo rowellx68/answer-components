@@ -7,14 +7,16 @@ export default {
   title: 'Components/Layout/Wrapper',
   component: Wrapper,
   argTypes: {
-    className: { control: 'text' }
+    className: { control: 'text' },
   },
-} as Meta;
+} as Meta
 
 const Template: Story<WrapperProps> = (args) => (
   <div className="bg-yellow-100">
     <Wrapper {...args}>
-      <h2 className="text-2xl md:text-3xl font-extralight">This is content is inside a Wrapper.</h2>
+      <h2 className="text-2xl md:text-3xl font-extralight">
+        This is content is inside a Wrapper.
+      </h2>
     </Wrapper>
     <p className="py-10">This one is not.</p>
   </div>
@@ -22,5 +24,5 @@ const Template: Story<WrapperProps> = (args) => (
 
 export const BasicUsage = Template.bind({})
 BasicUsage.args = {
-  className: 'p-6 bg-gray-200'
+  className: 'p-6 bg-gray-200',
 }

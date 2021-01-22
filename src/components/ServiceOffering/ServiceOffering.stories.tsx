@@ -11,7 +11,7 @@ export default {
     title: { control: 'text' },
     text: { control: 'text' },
   },
-} as Meta;
+} as Meta
 
 const Template: Story<ServiceOfferingProps> = (args) => (
   <ServiceOffering {...args} />
@@ -30,12 +30,14 @@ export const BasicUsage = Template.bind({})
 BasicUsage.args = {
   className: 'pb-6',
   title: 'Service',
-  text: 'This is a really long text that could be used as the sub-heading of the page.'
+  text:
+    'This is a really long text that could be used as the sub-heading of the page.',
 }
 
 export const GridUsage = GridTemplate.bind({})
 GridUsage.args = {
   className: 'pb-6',
   title: 'Services',
-  text: 'This is a really long text that could be used as the sub-heading of the page.'
+  text:
+    'This is a really long text that could be used as the sub-heading of the page.',
 }
